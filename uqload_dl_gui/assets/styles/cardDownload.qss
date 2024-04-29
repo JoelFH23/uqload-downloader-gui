@@ -1,0 +1,38 @@
+QFrame#card{
+  background-color: #181a1b;
+  background-color: transparent;
+  border: 1px solid #30363d;
+  min-height: 120;
+}
+QFrame#card QLabel{
+  color: #cecac3;
+  color: #a39b8e;
+}
+QFrame#card QLabel#title{
+  font-size: 13px;
+}
+QFrame#card QPushButton#badge_button{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 4px;
+  font-size: 10px;
+  min-width: 40px;
+  padding: 2px;
+}
+QFrame#card QLabel#bytes_downloaded_label{
+  font-size: 11px;
+}
+QProgressBar#progress_bar{
+  max-height: 4px;
+  background-color: #30363d;
+  border: none;
+}
+QProgressBar#progress_bar::chunk{
+  background-color: #EC2868;
+  border-radius: 6px;
+}
+
+QPushButton#delete_button{
+  background-color: transparent;
+}

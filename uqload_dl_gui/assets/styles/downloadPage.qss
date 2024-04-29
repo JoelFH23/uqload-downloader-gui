@@ -1,0 +1,49 @@
+QFrame#header_frame{
+  background-color: transparent;
+}
+
+QFrame#header_frame QLabel{
+  color: #a39b8e;
+  color: #cecac3;
+}
+QFrame#header_frame QLabel#total_tasks_label,
+QFrame#header_frame QLabel#error_label{
+  font-size: 13px;
+}
+
+QPushButton#cancel_all_button{
+  width: 100px;
+  height: 100%;
+  background-color: #30363d;
+  color: #a39b8e;
+  border: none;
+  border-radius: 6px;
+}
+
+QFrame#card_list{
+  border: none;
+}
+
+QScrollArea#scroll_area{
+  background-color: transparent;
+  border: 1px solid #30363d;
+}
+
+QScrollArea#scroll_area QScrollBar:vertical{
+  background-color: transparent;
+  width: 6px;
+}
+
+QScrollArea#scroll_area QScrollBar::handle:vertical{
+  background-color: #30363d;
+  border: none;
+}
+/* remove background color */
+QScrollArea#scroll_area QScrollBar::add-page:vertical,
+QScrollArea#scroll_area QScrollBar::sub-page:vertical {
+  background-color: transparent;
+}
+QScrollArea#scroll_area QScrollBar::add-line:vertical,
+QScrollArea#scroll_area QScrollBar::sub-line:vertical {
+  height: 0px;
+}

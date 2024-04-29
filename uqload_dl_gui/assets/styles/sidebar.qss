@@ -1,0 +1,11 @@
+QFrame#sidebar{
+    background-color: #121212;
+    max-width: 40px;
+}
+QFrame#sidebar QPushButton{
+  border: none;
+  height: 30px;
+}
+QFrame#sidebar QPushButton::hover{
+  background-color: #30363d;
+}

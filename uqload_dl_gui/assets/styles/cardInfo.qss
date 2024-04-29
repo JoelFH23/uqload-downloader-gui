@@ -1,0 +1,47 @@
+QFrame#card_frame{
+  background-color: transparent;
+  min-height: 120px;
+  border-color: #30363d;
+  border-radius: 2px;
+}
+QFrame#card_frame QFrame#card_thumbnail_frame{
+  padding: 6px;
+  min-width: 80px;
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: #30363d;
+}
+/* thumbnail_image */
+QFrame#card_frame QSvgWidget{
+  max-width: 36px;
+  max-height: 36px;
+}
+QFrame#card_frame QFrame#card_content_frame{
+  background-color: transparent;
+}
+QFrame#card_frame QFrame#card_content_frame QWidget{
+  color: #cecac3;
+}
+QFrame#card_frame QFrame#card_content_frame QLineEdit#card_title{
+  border: none;
+  background-color: transparent;
+}
+QFrame#card_frame QFrame#card_button_frame{
+  padding: 6px;
+  min-width: 80px;
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #30363d;
+}
+
+QFrame#card_frame QPushButton#download_button{
+  max-width: 80px;
+  background-color: transparent;
+  border-radius: 2px;
+  border: none;
+}
+QFrame#card_frame QPushButton#download_button:hover{
+  background-color: rgba(255,255,255,0.15);
+  background-color: #30363d;
+  border-color: #30363d;
+}

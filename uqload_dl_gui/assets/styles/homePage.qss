@@ -1,0 +1,44 @@
+QFrame#header_frame{
+    background-color: transparent;
+    min-height: 40px;
+}
+QProgressBar#request_progress_bar{
+    background-color: transparent;
+    border: none;
+}
+QProgressBar#request_progress_bar::chunk{
+    background-color: #2f81f7;
+    background-color: rgb(236,40,104);
+}
+QLineEdit#url_input{
+    background: transparent;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #a39b8e;
+    color: #cecac3;
+}
+QPushButton#search_button{
+    color: #a39b8e;
+    width: 60px;
+    background: #30363d;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+QLineEdit#url_input, QPushButton#search_button{
+    height: 18px;
+    border: 1px solid #30363d;
+    padding: 4px;
+}
+QFrame#card_frame{
+    background: #181a1b;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+QPushButton#download_button{
+    background: orange;
+    border-width: 1px;
+    border-style: solid;
+    border-left-color: #30363d;
+    width: 100%;
+    height: 90%;
+}

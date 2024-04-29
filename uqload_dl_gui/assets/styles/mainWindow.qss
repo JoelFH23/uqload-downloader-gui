@@ -1,0 +1,4 @@
+QWidget#mainWindow {
+    background-color: #202124;
+}
+

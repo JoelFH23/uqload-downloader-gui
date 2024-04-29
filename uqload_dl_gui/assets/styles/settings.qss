@@ -1,0 +1,27 @@
+QDialog#settings{
+  background-color: #202124;
+}
+QDialog#settings QGroupBox{
+  border: none;
+}
+QDialog#settings QGroupBox QSpinBox{
+  color: #cecac3;
+  background-color: transparent;
+  border: none;
+  height: 26px;
+  max-width: 60px;
+  margin-left: 10px;
+}
+QDialog#settings QGroupBox QSpinBox,
+QDialog#settings QLabel#folder_label{
+  margin-left: 10px;
+  color: #a39b8e;
+}
+QDialog#settings QGroupBox QPushButton{
+  background-color: #30363d;;
+  color: #a39b8e;
+  max-width: 80px;
+}
+QDialog#settings QGroupBox QLabel{
+  color: #cecac3;
+}

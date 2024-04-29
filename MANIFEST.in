@@ -1,0 +1,5 @@
+recursive-include . *.qss
+recursive-include . *.ico
+recursive-include . *.svg
+recursive-include . *.ttf
+recursive-include . *.txt
